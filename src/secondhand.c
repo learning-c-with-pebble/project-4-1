@@ -43,7 +43,7 @@ static void mark_the_second(GContext *ctx) {
         }
         
         graphics_context_set_text_color(ctx, time_color);
-        graphics_draw_text(ctx, text, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD), 
+        graphics_draw_text(ctx, text, fonts_get_system_font(FONT_KEY_GOTHIC_24), 
                      GRect(position_x,position_y,30,30), 
                      GTextOverflowModeTrailingEllipsis, GTextAlignmentCenter, NULL);
     }
